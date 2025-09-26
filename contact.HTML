@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - PagAE</title>
+  <meta name="description" content="Get in touch with the PagAE team. Use the contact form to send feedback, report bugs, or ask questions.">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contact-container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #3a7bd5;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #345ec3;
+    }
+
+    .info {
+      margin-top: 30px;
+      font-size: 15px;
+      color: #555;
+    }
+
+    @media screen and (max-width: 600px) {
+      .contact-container {
+        margin: 20px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-container">
+    <h1>Contact Us</h1>
+    <form action="#" method="POST" onsubmit="alert('Thank you! Your message has been sent.'); return false;">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required />
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="info">
+      <p><strong>Email:</strong> aiParaphrasing@gmail.com</p>
+      <p><strong>Address:</strong> PagAE HQ, Kolkata, India</p>
+      <p><strong>Support Hours:</strong> Mon - Fri, 9 AM - 6 PM IST</p>
+    </div>
+  </div>
+
+</body>
+</html>

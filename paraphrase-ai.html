@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Paraphrasing Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+       
+        
+        <main>
+            <div class="text-boxes">
+                <div class="input-container">
+                    <label for="original">Original Text</label>
+                    <textarea 
+                        id="original" 
+                        placeholder="Enter your text here... The tool will help you rephrase it in different styles while maintaining the meaning."
+                    ></textarea>
+                    <div class="word-count">Words: <span id="wordCount">0</span></div>
+                </div>
+
+                <div class="controls">
+                    <select id="style">
+                        <option value="professional">Professional</option>
+                        <option value="casual">Casual</option>
+                        <option value="formal">Formal</option>
+                        <option value="simple">Simple</option>
+                    </select>
+                    <button id="paraphrase" class="primary-button">Paraphrase</button>
+                    <button id="copy" class="secondary-button">Copy Result</button>
+                </div>
+
+                <div class="output-container">
+                    <label for="result">Paraphrased Text</label>
+                    <textarea 
+                        id="result" 
+                        readonly 
+                        placeholder="Your paraphrased text will appear here..."
+                    ></textarea>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!--footer-->
+<footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo"><span style="color: red"></span> paraphrase Ai</div>
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="#">Help</a>
+        <a href="#">Contact</a>
+      </div>
+      <p class="footer-copy">&copy; @2025 paraphrase Ai. All rights reserved.</p>
+    </div>
+  </footer>
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+</body>
+</html>
