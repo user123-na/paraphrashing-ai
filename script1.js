@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyBnGD8LEybf14WQbRihl3d4suaizI5dBrM"; // Replace with your real Gemini API key
+const API_KEY = "AIzaSyCka-VejgI68_QxrbSu7TETZp0PfNbkY_g"; // Replace with your real Gemini API key
 
 document.getElementById("paraphrase").addEventListener("click", async () => {
     const inputText = document.getElementById("original").value.trim();
@@ -54,3 +54,4 @@ document.getElementById("copy").addEventListener("click", () => {
     resultText.select();
     document.execCommand("copy");
 });
+
